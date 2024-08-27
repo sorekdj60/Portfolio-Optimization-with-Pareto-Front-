@@ -14,7 +14,7 @@ public:
     vector<double> allocations;  // Weights for asset allocation
     double netReturn;  // Net return after transaction costs
     double volatility;  // Portfolio risk
-    double transactionCost;  // Cost incurred due to transactions
+    double transactionCost;  // Cost due to transactions
 
     Portfolio(int numAssets = 0) {
         allocations.resize(numAssets);
@@ -145,8 +145,8 @@ int main() {
     int numAssets = 5;  // Number of assets in the portfolio
     int numSimulations = 10000;  // Number of portfolios to simulate
     double transactionCostRate = 0.001;  // Transaction cost rate (0.1%)
-    int minAssets = 2;  // Minimum number of assets allowed in a portfolio
-    int maxAssets = 4;  // Maximum number of assets allowed in a portfolio
+    int minAssets = 2;
+    int maxAssets = 4; 
 
     // Example data: expected returns and covariance matrix for the assets
     vector<double> expectedReturns = {0.12, 0.10, 0.14, 0.08, 0.11};  // Expected returns for the assets
