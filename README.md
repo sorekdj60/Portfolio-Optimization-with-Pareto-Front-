@@ -89,7 +89,7 @@ After the simulation is complete, the program will display the Pareto front:
 ```
 Pareto Front:
 Return: 0.105, Risk: 0.215, Transaction Cost: 0.002
-Return: 0.102, Risk: 0.190, Transaction Cost: 0.0015
+Return: 0.102, Risk: 0.190, Transaction Cost: 0.001
 ...
 ```
 
