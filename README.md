@@ -2,6 +2,7 @@
 
 # Portfolio Optimization with Pareto Front
 
+
 This project aims to solve a classic problem in finance: **portfolio optimization**. The objective is to generate investment portfolios that maximize return while minimizing risk. The problem is tackled using simulation techniques and multi-objective optimization through the construction of the **Pareto front**.
 
 ## Problem to Solve
