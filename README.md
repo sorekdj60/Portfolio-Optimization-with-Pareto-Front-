@@ -59,8 +59,6 @@ The problem was solved using a **Monte Carlo simulation** to generate a large nu
 ## Technologies Used
 
 - **C++**: Programming language used to implement portfolio simulations and the construction of the Pareto front.
-- **Monte Carlo Algorithms**: To generate a large number of random portfolios with different weights.
-- **Multi-Objective Optimization**: Used to select the optimal portfolios for the Pareto front.
 
 ## Code Structure
 
